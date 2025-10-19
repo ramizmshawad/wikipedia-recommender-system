@@ -116,8 +116,11 @@ def wikipedia_recommender_system():
                                   "<input type='number' id='n_articles' name='n_articles' required><br><br>\n"
                                   "<input type='submit' value='Get Recommended Articles'>\n"
                                   "</form>")
-# Run the flask app at the link for the Wikipedia recommender system to run. Set debug to True to be in 
-# debug mode and use_reloader to False so the code works in Jupyter Notebook or regular Python file.
+# Run the flask app at the link http://127.0.0.1:5000/ locally or 
+# https://wikipedia-recommender-system.onrender.com publicly, for 
+# the Wikipedia recommender system to run. Set debug to True to be 
+# in debug mode and use_reloader to False so the code works in Jupyter 
+# Notebook or regular Python file.
 if __name__ == "__main__":
     app.run(debug = True, use_reloader=False)
 
