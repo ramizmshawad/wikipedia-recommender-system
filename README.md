@@ -1,0 +1,1 @@
+See the file named "wikipedia_recommender_system.ipynb" for information about the project and app. The less detailed "wikipedia_recommender_system.py" is for actually running the flask app that houses the wikipedia recommender system.
